@@ -256,7 +256,7 @@ ul.button li a:hover{
 /*-----//End-header----*/
 #features{
 	padding: 4.3em 0;
-	background: #5DADE2;
+	background: #EF2A44;
 }
 .superb-feature{
 	margin: 0 auto;
@@ -305,7 +305,7 @@ ul.button li a:hover{
 	margin: 0 auto;
 }
 .app_ img{
-   float:right;	
+   float:right;
    padding-top:8em;
    margin-right: -1em;
    margin-bottom: -1em;
@@ -509,7 +509,7 @@ input[type="submit"] {
 	background: #319AE0;
 	color: #FFF;
 	transition: 0.5s all;
-	-webkit-transition: 0.5s all; 
+	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
 	text-decoration: none;
@@ -647,7 +647,7 @@ ul.top-social-icons {
 	border-radius: 0.2em;
 	-moz-border-radius: 0.2em;
 	-o-border-radius: 0.2em;
-	-webkit-border-radius: 0.2em; 
+	-webkit-border-radius: 0.2em;
 }
 [data-tooltip]:hover, [data-tooltip]:focus {
 	background-color: rgba(0, 0, 0, 0);
@@ -747,17 +747,17 @@ ul.top-social-icons {
 	}
 	.newsletter {
 		width: 85%;
-		margin: 0 auto;	
+		margin: 0 auto;
 	}
 }
 /*----start-media-quries-for-1280px-Laptops-----*/
-@media (max-width:1280px){	
+@media (max-width:1280px){
 	.box_content_center {
 		padding-bottom: 7.1em;
 	}
 	.newsletter {
 		width: 85%;
-		margin: 0 auto;	
+		margin: 0 auto;
 	}
 	.top-header {
 		margin: 0 auto;
@@ -907,7 +907,7 @@ ul.top-social-icons {
 		top: 2.7em;
 		right: 24em;
 	}
-	.content_top { 
+	.content_top {
 		padding: 2em 0;
 	}
 	.content_bottom{
@@ -1030,7 +1030,7 @@ ul.top-social-icons {
 		top: 2.7em;
 		right: 24em;
 	}
-	.content_top { 
+	.content_top {
 		padding: 2em 0;
 	}
 	.content_bottom{
@@ -1208,7 +1208,7 @@ ul.top-social-icons {
 	padding: 2em;
 	}
 	.copy-right {
-		padding:0; 
+		padding:0;
 	}
 }
 /*----start-media-quries-for-480-----*/
@@ -1222,7 +1222,7 @@ ul.top-social-icons {
 	.sb-search {
 		position: absolute;
 		top: 16px;
-	}	
+	}
 	a.boxclose {
 		right: 14em;
 	}
@@ -1275,7 +1275,7 @@ ul.top-social-icons {
 		height: 117px;
 		margin-bottom: 1.5em;
 	}
-	.devices_desc h3 { 
+	.devices_desc h3 {
 		padding-top: 0.5em;
 	}
 	#gallery {
@@ -1329,7 +1329,7 @@ ul.top-social-icons {
 	}
 	.simptip-position-bottom:before, .simptip-position-bottom:after, .simptip-position-top:before, .simptip-position-top:after {
 		left: -20%;
-	}		
+	}
 }
 
 /*----start-media-quries-for-320-----*/
