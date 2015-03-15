@@ -37,6 +37,11 @@ body{
 	padding:0.5em;
 	text-align: right;
 }
+
+.welcome-note-left {
+	text-align: right;
+}
+
 .welcome-note-left p{
 	font-family: 'Lato', sans-serif;
 	line-height: 1.7em;
@@ -256,7 +261,7 @@ ul.button li a:hover{
 /*-----//End-header----*/
 #features{
 	padding: 4.3em 0;
-	background: #EF2A44;
+	background: #333;
 }
 .superb-feature{
 	margin: 0 auto;
@@ -1467,3 +1472,8 @@ ul.top-social-icons {
 
 /*----//End-media-quries-for-320px-----*/
 
+#intro_logo {
+	width: 180px;
+	height: auto;
+	margin-bottom: 40px;
+}
