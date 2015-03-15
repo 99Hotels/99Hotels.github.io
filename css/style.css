@@ -260,8 +260,11 @@ ul.button li a:hover{
 }
 /*-----//End-header----*/
 #features{
+	float: left;
+	width: 100%;
 	padding: 4.3em 0;
 	background: #F2253F;
+	color: #FFF;
 }
 .superb-feature{
 	margin: 0 auto;
@@ -1473,7 +1476,7 @@ ul.top-social-icons {
 /*----//End-media-quries-for-320px-----*/
 
 #intro_logo {
-	width: 140px;
+	width: 220px;
 	height: auto;
 	margin-bottom: 40px;
 }
