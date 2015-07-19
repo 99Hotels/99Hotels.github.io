@@ -1,409 +1,453 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Forkio: Responsive Bootstrap HTML Template</title>
-	<meta name="description" content="A free responsive website template made exclusively for Codrops by Pixel Buddha and PSD2HTML">
-	<meta name="keywords" content="website template, css3, one page, bootstrap, app template, web app, start-up">
-	<meta name="author" content="Pixel Buddha and PSD2HTML for Codrops">
-	<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon-180x180.png">
-	<link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="favicons/favicon-194x194.png" sizes="194x194">
-	<link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="favicons/android-chrome-192x192.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="favicons/manifest.json">
-	<link rel="shortcut icon" href="favicons/favicon.ico">
-	<meta name="msapplication-TileColor" content="#603cba">
-	<meta name="msapplication-TileImage" content="favicons/mstile-144x144.png">
-	<meta name="msapplication-config" content="favicons/browserconfig.xml">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cardio: Free One Page Template by Luka Cvetinovic</title>
+	<meta name="description" content="Cardio is a free one page template made exclusively for Codrops by Luka Cvetinovic" />
+	<meta name="keywords" content="html template, css, free, one page, gym, fitness, web design" />
+	<meta name="author" content="Luka Cvetinovic for Codrops" />
+	<!-- Favicons (created with http://realfavicongenerator.net/)-->
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="img/favicons/manifest.json">
+	<link rel="shortcut icon" href="img/favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#00a8ff">
+	<meta name="msapplication-config" content="img/favicons/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/all.css">
-	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Source+Sans+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<!-- Normalize -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- Owl -->
+	<link rel="stylesheet" type="text/css" href="css/owl.css">
+	<!-- Animate.css -->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.1.0/css/font-awesome.min.css">
+	<!-- Elegant Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/eleganticons/et-icons.css">
+	<!-- Main style -->
+	<link rel="stylesheet" type="text/css" href="css/cardio.css">
 </head>
+
 <body>
-<div id="wrapper">
-		<header id="header">
-			<div class="container">
-				<div class="logo"><a href="#"><img src="images/logo.svg" alt="FORKIO"></a></div>
-				<nav id="nav">
-					<div class="opener-holder">
-						<a href="#" class="nav-opener"><span></span></a>
+	<div class="preloader">
+		<img src="img/loader.gif" alt="Preloader image">
+	</div>
+	<nav class="navbar">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="img/logo.png" data-active-url="img/logo-active.png" alt=""></a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right main-nav">
+					<li><a href="#intro">Intro</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#team">Team</a></li>
+					<li><a href="#pricing">Pricing</a></li>
+					<li><a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue">Sign Up</a></li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+	<header id="intro">
+		<div class="container">
+			<div class="table">
+				<div class="header-text">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<h3 class="light white">Take care of your body.</h3>
+							<h1 class="white typed">It's the only place you have to live.</h1>
+							<span class="typed-cursor">|</span>
+						</div>
 					</div>
-					<a href="http://tympanus.net/codrops/?p=23525" class="btn btn-primary rounded">Buy Now</a>
-					<div class="nav-drop">
-						<ul>
-							<li class="active visible-sm visible-xs"><a href="#">Home</a></li>
-							<li><a href="#">Overview</a></li>
-							<li><a href="#">About Fork</a></li>
-							<li><a href="#">Buying Options</a></li>
-							<li><a href="#">Support</a></li>
-						</ul>
-						<div class="drop-holder visible-sm visible-xs">
-							<span>Follow Us</span>
-							<ul class="social-networks">
-								<li><a class="fa fa-github" href="#"></a></li>
-								<li><a class="fa fa-twitter" href="#"></a></li>
-								<li><a class="fa fa-facebook" href="#"></a></li>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="cut cut-top"></div>
+		<div class="container">
+			<div class="row intro-tables">
+				<div class="col-md-4">
+					<div class="intro-table intro-table-first">
+						<h5 class="white heading">Today's Schedule</h5>
+						<div class="owl-carousel owl-schedule bottom">
+							<div class="item">
+								<div class="schedule-row row">
+									<div class="col-xs-6">
+										<h5 class="regular white">Early Exercise</h5>
+									</div>
+									<div class="col-xs-6 text-right">
+										<h5 class="white">8:30 - 10:00</h5>
+									</div>
+								</div>
+								<div class="schedule-row row">
+									<div class="col-xs-6">
+										<h5 class="regular white">Muscle Building</h5>
+									</div>
+									<div class="col-xs-6 text-right">
+										<h5 class="white">8:30 - 10:00</h5>
+									</div>
+								</div>
+								<div class="schedule-row row">
+									<div class="col-xs-6">
+										<h5 class="regular white">Cardio</h5>
+									</div>
+									<div class="col-xs-6 text-right">
+										<h5 class="white">8:30 - 10:00</h5>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="schedule-row row">
+									<div class="col-xs-6">
+										<h5 class="regular white">Early Exercise</h5>
+									</div>
+									<div class="col-xs-6 text-right">
+										<h5 class="white">8:30 - 10:00</h5>
+									</div>
+								</div>
+								<div class="schedule-row row">
+									<div class="col-xs-6">
+										<h5 class="regular white">Muscle Building</h5>
+									</div>
+									<div class="col-xs-6 text-right">
+										<h5 class="white">8:30 - 10:00</h5>
+									</div>
+								</div>
+								<div class="schedule-row row">
+									<div class="col-xs-6">
+										<h5 class="regular white">Cardio</h5>
+									</div>
+									<div class="col-xs-6 text-right">
+										<h5 class="white">8:30 - 10:00</h5>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="schedule-row row">
+									<div class="col-xs-6">
+										<h5 class="regular white">Early Exercise</h5>
+									</div>
+									<div class="col-xs-6 text-right">
+										<h5 class="white">8:30 - 10:00</h5>
+									</div>
+								</div>
+								<div class="schedule-row row">
+									<div class="col-xs-6">
+										<h5 class="regular white">Muscle Building</h5>
+									</div>
+									<div class="col-xs-6 text-right">
+										<h5 class="white">8:30 - 10:00</h5>
+									</div>
+								</div>
+								<div class="schedule-row row">
+									<div class="col-xs-6">
+										<h5 class="regular white">Cardio</h5>
+									</div>
+									<div class="col-xs-6 text-right">
+										<h5 class="white">8:30 - 10:00</h5>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="intro-table intro-table-hover">
+						<h5 class="white heading hide-hover">Premium Membership</h5>
+						<div class="bottom">
+							<h4 class="white heading small-heading no-margin regular">Register Today</h4>
+							<h4 class="white heading small-pt">20% Discount</h4>
+							<a href="#" class="btn btn-white-fill expand">Register</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="intro-table intro-table-third">
+						<h5 class="white heading">Happy Clients</h5>
+						<div class="owl-testimonials bottom">
+							<div class="item">
+								<h4 class="white heading content">I couldn't be more happy with the results!</h4>
+								<h5 class="white heading light author">Adam Jordan</h5>
+							</div>
+							<div class="item">
+								<h4 class="white heading content">I can't believe how much better I feel!</h4>
+								<h5 class="white heading light author">Greg Pardon</h5>
+							</div>
+							<div class="item">
+								<h4 class="white heading content">Incredible transformation and I feel so healthy!</h4>
+								<h5 class="white heading light author">Christina Goldman</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="services" class="section section-padded">
+		<div class="container">
+			<div class="row text-center title">
+				<h2>Services</h2>
+				<h4 class="light muted">Achieve the best results with our wide variety of training options!</h4>
+			</div>
+			<div class="row services">
+				<div class="col-md-4">
+					<div class="service">
+						<div class="icon-holder">
+							<img src="img/icons/heart-blue.png" alt="" class="icon">
+						</div>
+						<h4 class="heading">Cardio Training</h4>
+						<p class="description">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="service">
+						<div class="icon-holder">
+							<img src="img/icons/guru-blue.png" alt="" class="icon">
+						</div>
+						<h4 class="heading">Yoga Pilates</h4>
+						<p class="description">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="service">
+						<div class="icon-holder">
+							<img src="img/icons/weight-blue.png" alt="" class="icon">
+						</div>
+						<h4 class="heading">Power Training</h4>
+						<p class="description">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cut cut-bottom"></div>
+	</section>
+	<section id="team" class="section gray-bg">
+		<div class="container">
+			<div class="row title text-center">
+				<h2 class="margin-top">Team</h2>
+				<h4 class="light muted">We're a dream team!</h4>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="team text-center">
+						<div class="cover" style="background:url('img/team/team-cover1.jpg'); background-size:cover;">
+							<div class="overlay text-center">
+								<h3 class="white">$69.00</h3>
+								<h5 class="light light-white">1 - 5 sessions / month</h5>
+							</div>
+						</div>
+						<img src="img/team/team3.jpg" alt="Team Image" class="avatar">
+						<div class="title">
+							<h4>Ben Adamson</h4>
+							<h5 class="muted regular">Fitness Instructor</h5>
+						</div>
+						<button data-toggle="modal" data-target="#modal1" class="btn btn-blue-fill">Sign Up Now</button>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="team text-center">
+						<div class="cover" style="background:url('img/team/team-cover2.jpg'); background-size:cover;">
+							<div class="overlay text-center">
+								<h3 class="white">$69.00</h3>
+								<h5 class="light light-white">1 - 5 sessions / month</h5>
+							</div>
+						</div>
+						<img src="img/team/team1.jpg" alt="Team Image" class="avatar">
+						<div class="title">
+							<h4>Eva Williams</h4>
+							<h5 class="muted regular">Personal Trainer</h5>
+						</div>
+						<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue-fill ripple">Sign Up Now</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="team text-center">
+						<div class="cover" style="background:url('img/team/team-cover3.jpg'); background-size:cover;">
+							<div class="overlay text-center">
+								<h3 class="white">$69.00</h3>
+								<h5 class="light light-white">1 - 5 sessions / month</h5>
+							</div>
+						</div>
+						<img src="img/team/team2.jpg" alt="Team Image" class="avatar">
+						<div class="title">
+							<h4>John Phillips</h4>
+							<h5 class="muted regular">Personal Trainer</h5>
+						</div>
+						<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue-fill ripple">Sign Up Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="pricing" class="section">
+		<div class="container">
+			<div class="row title text-center">
+				<h2 class="margin-top white">Pricing</h2>
+				<h4 class="light white">Choose your favorite pricing plan and sign up today!</h4>
+			</div>
+			<div class="row no-margin">
+				<div class="col-md-7 no-padding col-md-offset-5 pricings text-center">
+					<div class="pricing">
+						<div class="box-main active" data-img="img/pricing1.jpg">
+							<h4 class="white">Yoga Pilates</h4>
+							<h4 class="white regular light">$850.00 <span class="small-font">/ year</span></h4>
+							<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-white-fill">Sign Up Now</a>
+							<i class="info-icon icon_question"></i>
+						</div>
+						<div class="box-second active">
+							<ul class="white-list text-left">
+								<li>One Personal Trainer</li>
+								<li>Big gym space for training</li>
+								<li>Free tools &amp; props</li>
+								<li>Free locker</li>
+								<li>Free before / after shower</li>
 							</ul>
 						</div>
 					</div>
-				</nav>
-			</div>
-		</header>
-	<section class="visual">
-		<div class="container">
-			<div class="text-block">
-				<div class="heading-holder">
-					<h1>Fork App</h1>
-				</div>
-				<p class="tagline">A real gamechanger in the world of web development</p>
-				<span class="info">Version 2.8 for Mac and Windows</span>
-			</div>
-		</div>
-		<img src="images/img-decor-01.jpg" alt="" class="bg-stretch">
-	</section>
-	<section class="main">
-		<div class="container">
-			<div id="cta">
-				<a href="http://tympanus.net/codrops/?p=23525" class="btn btn-primary rounded">Download For Free Now</a>
-				<p>Unlimited 30-Days Trial Period</p>
-			</div>
-			<div class="row">
-				<div class="text-box col-md-offset-1 col-md-10">
-					<h2>Revolutionary editor</h2>
-					<p>Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue. </p>
-					<div class="social-placeholder"><img src="images/img-social-placeholder-01.png" height="26" width="365" alt=""></div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="area">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-5">
-					<h2 class="visible-xs visible-sm text-primary">&lt;Here is what you get&gt;</h2>
-					<ul class="visual-list">
-						<li>
-							<div class="img-holder">
-								<img src="images/graph-04.svg" width="110" alt="">
-							</div>
-							<div class="text-holder">
-								<h3>Created to Make A Better Web</h3>
-								<p>Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue. </p>
-							</div>
-						</li>
-						<li>
-							<div class="img-holder">
-								<img class="pull-left" src="images/graph-03.svg" width="90" alt="">
-							</div>
-							<div class="text-holder">
-								<h3>Infinite Customization</h3>
-								<p>Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>
-							</div>
-						</li>
-						<li>
-							<div class="img-holder">
-								<img src="images/graph-02.svg" height="84" alt="">
-							</div>
-							<div class="text-holder">
-								<h3>Experimental Features</h3>
-								<p>Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>
-							</div>
-						</li>
-						<li>
-							<div class="img-holder">
-								<img src="images/graph-01.svg" height="71" alt="">
-							</div>
-							<div class="text-holder">
-								<h3>Time-Saving Power Tools</h3>
-								<p>Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. </p>
-							</div>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-7">
-					<div class="slide-holder">
-						<h2 class="hidden-xs hidden-sm text-primary">&lt;Here is what you get&gt;</h2>
-						<div class="img-slide scroll-trigger"><img src="images/img-01.png" height="624" width="1184" alt=""></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="main">
-		<div class="container">
-			<div class="block-holder">
-				<div class="block-frame">
-					<div class="cycle-gallery">
-						<div class="mask">
-							<div class="slideset">
-								<div class="slide">
-									<div class="img-box">
-										<div class="img-holder"><img src="images/user-01.jpg" height="85" width="85" alt=""></div>
-										<div class="text-holder">
-											<h3>Steven Walters</h3>
-											<a href="#">@DoctorS</a>
-										</div>
-									</div>
-									<p><a href="#">@Pixelbuddha</a> Suspendisse sodales sem est, in scelerisque felis scelerisque in. Aenean faucibus mollis risus. Praesent sit amet erat eget eros.</p>
-									<em class="date">2 hours ago</em>
-								</div>
-								<div class="slide">
-									<div class="img-box">
-										<div class="img-holder"><img src="images/user-02.jpg" height="85" width="85" alt=""></div>
-										<div class="text-holder">
-											<h3>Shane Jennings</h3>
-											<a href="#">@shanejen</a>
-										</div>
-									</div>
-									<p><a href="#">@PSD2HTML</a> Ut id porta quam. Morbi sit amet magna lobortis, hendrerit lorem et, tincidunt lorem. Sed vulputate condimentum lorem vel dapibus</p>
-									<em class="date">5 hours ago</em>
-								</div>
-								<div class="slide">
-									<div class="img-box">
-										<div class="img-holder"><img src="images/user-03.jpg" height="85" width="85" alt=""></div>
-										<div class="text-holder">
-											<h3>Rafael Belverde</h3>
-											<a href="#">@bellraffi</a>
-										</div>
-									</div>
-									<p><a href="#">@codrops</a> Curabitur nec dapibus ligula. In eget ante in nisi laoreet accumsan pretium vitae est. Nulla lacinia efficitur dui eget accumsan?</p>
-									<em class="date">1 day ago</em>
-								</div>
-							</div>
+					<div class="pricing">
+						<div class="box-main" data-img="img/pricing2.jpg">
+							<h4 class="white">Cardio Training</h4>
+							<h4 class="white regular light">$100.00 <span class="small-font">/ year</span></h4>
+							<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-white-fill">Sign Up Now</a>
+							<i class="info-icon icon_question"></i>
 						</div>
-						<a class="btn-prev" href="#"><i class="glyphicon glyphicon-menu-left"></i></a>
-						<a class="btn-next" href="#"><i class="glyphicon glyphicon-menu-right"></i></a>
+						<div class="box-second">
+							<ul class="white-list text-left">
+								<li>One Personal Trainer</li>
+								<li>Big gym space for training</li>
+								<li>Free tools &amp; props</li>
+								<li>Free locker</li>
+								<li>Free before / after shower</li>
+							</ul>
+						</div>
 					</div>
 				</div>
-				<div class="block-frame">
-					<ul class="cta-list">
-						<li>
-							<a href="#" class="btn btn-default"><i class="fa fa-github"></i> GitHub</a>
-							<p>7 352 Followers</p>
-						</li>
-						<li>
-							<a href="#" class="btn btn-info"><i class="fa fa-twitter"></i> Twitter</a>
-							<p>136 312 Followers</p>
-						</li>
-						<li>
-							<a href="#" class="btn btn-blue"><i class="fa fa-facebook"></i> Facebook</a>
-							<p>218 092 Subscribers</p>
-						</li>
-					</ul>
-				</div>
 			</div>
 		</div>
 	</section>
-	<section class="visual-container">
-		<div class="visual-area">
-			<div class="container">
-				<h2>People Are Talking About Fork</h2>
-				<ul class="testimonials">
-					<li>
-						<div class="img-holder"><a href="#"><img src="images/logo-smashing.png" height="43" width="165" alt="smashing magazine"></a></div>
-						<p><em>Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin id dignissim magna. Sed varius urna et pulvinar venenatis. </em></p>
-					</li>
-					<li>
-						<div class="img-holder"><a href="#"><img src="images/logo-codrops.png" height="50" width="148" alt="codrops"></a></div>
-						<p><em>Donec euismod dolor ut ultricies consequat. Vivamus urna ipsum, rhoncus molestie neque ac, mollis eleifend nibh.</em></p>
-					</li>
-					<li>
-						<div class="img-holder"><a href="#"><img src="images/logo-w.png" height="64" width="64" alt="w"></a></div>
-						<p><em>In efficitur in velit et tempus. Duis nec odio dapibus, suscipit erat fringilla, imperdiet nibh. Morbi tempus auctor felis ac vehicula. </em></p>
-					</li>
-					<li>
-						<div class="img-holder"><a href="#"><img src="images/logo-pixel.png" height="24" width="225" alt="Pixel Buddha"></a></div>
-						<p><em>Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin id dignissim magna. Sed varius urna et pulvinar venenatis. </em></p>
-					</li>
-					<li>
-						<div class="img-holder"><a href=""><img src="images/logo-cb.png" height="34" width="166" alt="creative bloq"></a></div>
-						<p><em>Praesent ut eros tristique, malesuada lectus vel, lobortis massa. Nulla faucibus lorem id arcu consequat faucibus. </em></p>
-					</li>
-					<li>
-						<div class="img-holder"><a href="#"><img src="images/logo-tnw.png" height="34" width="108" alt="tnw"></a></div>
-						<p><em>Fusce pharetra erat id odio blandit, nec pharetra eros venenatis. Pellentesque porttitor cursus massa et vestibulum.</em></p>
-					</li>
-				</ul>
-			</div>
-			<img src="images/img-decor-02.jpg" height="764" width="1380" alt="" class="bg-stretch">
-		</div>
-		<div class="visual-area">
-			<div class="container">
-				<h2>Fork Subscription Pricing</h2>
-				<div class="pricing-tables">
-					<div class="plan">
-		                <div class="head">
-		                    <h3>Students</h3>
-		                </div>
-		                <div class="price">
-		                    <span class="price-main"><span class="symbol">$</span>8</span>
-		                    <span class="price-additional">per month</span>
-		                </div>
-		                <ul class="item-list">
-		                    <li>Personal License</li>
-		                </ul>
-		                <button type="button" class="btn btn-default rounded">purchase</button>
-		            </div>
-		            <div class="plan">
-		                <div class="head">
-		                    <h3>professional</h3> </div>
-		                <div class="price">
-		                    <span class="price-main"><span class="symbol">$</span>19</span>
-		                    <span class="price-additional">per month</span>
-		                </div>
-		                    <ul class="item-list">
-		                       <li>Professional License</li>
-		                       <li>Email Support</li>
-		                    </ul>
-		                <button type="button" class="btn btn-default rounded">purchase</button>
-		            </div>
-		            <div class="plan recommended">
-		                <div class="head">
-		                    <h3>agency</h3> </div>
-		                <div class="price">
-		                    <span class="price-main"><span class="symbol">$</span>49</span>
-		                    <span class="price-additional">per month</span>
-		                </div>
-		                    <ul class="item-list">
-		                        <li>1-12 Team Members</li>
-		                        <li>Phone Support</li>
-		                    </ul>
-		                <button type="button" class="btn btn-default rounded">purchase</button>
-		            </div>
-		            <div class="plan">
-		                <div class="head">
-		                    <h3>enterprise</h3> </div>
-		                <div class="price">
-		                    <span class="price-main"><span class="symbol">$</span>79</span>
-		                    <span class="price-additional">per month</span>
-		                </div>
-		                <ul class="item-list">
-		                    <li>Unlimited Team Members</li>
-		                    <li>24/ 7 Phone Support</li>
-		                </ul>
-		                <button type="button" class="btn btn-default rounded">purchase</button>
-		            </div>
-				</div>
-				<p class="silent">Duis lobortis arcu sed arcu tincidunt feugiat. Nulla nisi mauris, facilisis vitae aliquet id, imperdiet quis nibh. Donec eget elit eu libero tincidunt consequat nec elementum orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-			</div>
-			<img src="images/img-decor-03.jpg" height="1175" width="1380" alt="" class="bg-stretch">
-		</div>
-	</section>
-	<section class="area">
+	<section class="section section-padded blue-bg">
 		<div class="container">
-			<div class="subscribe">
-				<h3>Subscribe to Our Newsletter</h3>
-				<form class="form-inline">
-					<button type="submit" class="btn btn-primary rounded">Subscribe</button>
-					<div class="form-group">
-						<input type="email" class="form-control rounded" id="exampleInputEmail2" placeholder="Email...">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="owl-twitter owl-carousel">
+						<div class="item text-center">
+							<i class="icon fa fa-twitter"></i>
+							<h4 class="white light">To enjoy the glow of good health, you must exercise.</h4>
+							<h4 class="light-white light">#health #training #exercise</h4>
+						</div>
+						<div class="item text-center">
+							<i class="icon fa fa-twitter"></i>
+							<h4 class="white light">To enjoy the glow of good health, you must exercise.</h4>
+							<h4 class="light-white light">#health #training #exercise</h4>
+						</div>
+						<div class="item text-center">
+							<i class="icon fa fa-twitter"></i>
+							<h4 class="white light">To enjoy the glow of good health, you must exercise.</h4>
+							<h4 class="light-white light">#health #training #exercise</h4>
+						</div>
 					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content modal-popup">
+				<a href="#" class="close-link"><i class="icon_close_alt2"></i></a>
+				<h3 class="white">Sign Up</h3>
+				<form action="" class="popup-form">
+					<input type="text" class="form-control form-white" placeholder="Full Name">
+					<input type="text" class="form-control form-white" placeholder="Email Address">
+					<div class="dropdown">
+						<button id="dLabel" class="form-control form-white dropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Pricing Plan
+						</button>
+						<ul class="dropdown-menu animated fadeIn" role="menu" aria-labelledby="dLabel">
+							<li class="animated lightSpeedIn"><a href="#">1 month membership ($150)</a></li>
+							<li class="animated lightSpeedIn"><a href="#">3 month membership ($350)</a></li>
+							<li class="animated lightSpeedIn"><a href="#">1 year membership ($1000)</a></li>
+							<li class="animated lightSpeedIn"><a href="#">Free trial class</a></li>
+						</ul>
+					</div>
+					<div class="checkbox-holder text-left">
+						<div class="checkbox">
+							<input type="checkbox" value="None" id="squaredOne" name="check" />
+							<label for="squaredOne"><span>I Agree to the <strong>Terms &amp; Conditions</strong></span></label>
+						</div>
+					</div>
+					<button type="submit" class="btn btn-submit">Submit</button>
 				</form>
 			</div>
 		</div>
-	</section>
-	<section class="main">
+	</div>
+	<footer>
 		<div class="container">
-			<div class="content">
-				<div class="row">
-					<div class="col-md-4">
-						<h3>New in Release 2.8</h3>
-						<h4>Fully Available: Live Preview Support for Multiple Browsers</h4>
-						<p>Morbi faucibus ante ipsum, a tincidunt libero posuere et. Etiam tempor tortor at odio condimentum, sit amet fringilla ligula maximus. Mauris venenatis nisl nisi, et dictum dui aliquet nec. Sed erat, nec aliquam vel, aliquam ac felis. </p>
-						<h4>Improved Support for Typing </h4>
-						<p>Nulla purus quam, pulvinar sed ante et, feugiat maximus velit. Donec eu elit mauris. </p>
-						<h4>Improved Stability</h4>
-						<p>Proin id ligula eget massa tincidunt molestie. Morbi urna lectus, molestie vel quam vel, iaculis fermentum nunc. Morbi imperdiet, leo in interdum pretium.</p>
-						<div class="btn-holder">
-							<a href="#" class="btn btn-link">Go to Release Log</a>
+			<div class="row">
+				<div class="col-sm-6 text-center-mobile">
+					<h3 class="white">Reserve a Free Trial Class!</h3>
+					<h5 class="light regular light-white">Shape your body and improve your health.</h5>
+					<a href="#" class="btn btn-blue ripple trial-button">Start Free Trial</a>
+				</div>
+				<div class="col-sm-6 text-center-mobile">
+					<h3 class="white">Opening Hours <span class="open-blink"></span></h3>
+					<div class="row opening-hours">
+						<div class="col-sm-6 text-center-mobile">
+							<h5 class="light-white light">Mon - Fri</h5>
+							<h3 class="regular white">9:00 - 22:00</h3>
 						</div>
-					</div>
-					<div class="col-md-4">
-						<h3>Popular Extensions</h3>
-						<h4><a href="#">Custom Themes 1.1</a></h4>
-						<p>Etiam viverra vulputate diam, pulvinar cursus augue egestas ullamcorper. </p>
-						<h4><a href="#">Filter Forge</a></h4>
-						<p>Nulla purus quam, pulvinar sed et, feugiat maximus velit.</p>
-						<h4><a href="#">WebZap</a></h4>
-						<p>Morbi imperdiet, leo in interdum pretium, elit eros dapibus velit, eu posuere quam diam vitae orci. Suspendisse interdum accumsan magna vitae commodo.</p>
-						<h4><a href="#">Renamy</a></h4>
-						<p>Vivamus consectetur suscipit elit, ut lacinia diam elementum et.</p>
-						<div class="btn-holder">
-							<a href="#" class="btn btn-link">Go to Marketplace</a>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<h3>New From the Blog</h3>
-						<h4><a href="#">Morbi imperdiet, leo in interdum pretium.</a></h4>
-						<time class="date" datetime="2015-02-18">February 18, 2015</time>
-						<h4><a href="#">Donec orci ante, porta vel nulla quis, aliquet hendrerit leo.</a></h4>
-						<time class="date" datetime="2015-02-12">February 12, 2015</time>
-						<h4><a href="#">Suspendisse egestas vulputate luctus.</a></h4>
-						<time class="date" datetime="2015-02-06">February 6, 2015</time>
-						<h4><a href="#">Quisque varius ante lorem, eget pretium purus hendrerit a egestas. </a></h4>
-						<time class="date" datetime="2015-02-02">February 2, 2015</time>
-						<h4><a href="#">Phasellus in augue risus. </a></h4>
-						<time class="date" datetime="2015-01-23">January 23, 2015</time>
-						<div class="btn-holder">
-							<a href="#" class="btn btn-link">Go to Blog</a>
+						<div class="col-sm-6 text-center-mobile">
+							<h5 class="light-white light">Sat - Sun</h5>
+							<h3 class="regular white">10:00 - 18:00</h3>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<footer id="footer">
-		<div class="container">
-			<div class="footer-holder">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="logo"><a href="#"><img src="images/logo.svg" alt="FORKIO"></a></div>
-						<p>Lorem ipsum dolor sit amet, feugiat delicat<br /> liberavisse id cum no quo.</p>
-					</div>
-					<div class="col-md-2">
-						<h4>Navigation</h4>
-						<ul>
-							<li><a href="#">Home</a></li>
-							<li><a href="#">Overview</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Buying Options</a></li>
-							<li><a href="#">Support</a></li>
-						</ul>
-					</div>
-					<div class="col-md-3">
-						<div class="text-holder">
-							<strong class="phone"><a href="tel:3475677890">347 567 78 90</a></strong>
-							<span class="available">Available from 12PM - 18PM</span>
-							<h4>New York, NY</h4>
-							<address>560 Judah St &amp; 15th Ave, Apt 5 San Francisco, CA, 230903</address>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="text-frame">
-							<h4>Info</h4>
-							<p>Wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex commodo consequat. Autem vel hendrerit iriure dolor in hendrerit.</p>
-						</div>
-					</div>
+			<div class="row bottom-footer text-center-mobile">
+				<div class="col-sm-8">
+					<p>&copy; 2015 All Rights Reserved. Powered by <a href="http://www.phir.co/">PHIr</a> exclusively for <a href="http://tympanus.net/codrops/">Codrops</a></p>
+				</div>
+				<div class="col-sm-4 text-right text-center-mobile">
+					<ul class="social-footer">
+						<li><a href="http://www.facebook.com/pages/Codrops/159107397912"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="http://www.twitter.com/codrops"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://plus.google.com/101095823814290637419"><i class="fa fa-google-plus"></i></a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
 	</footer>
-</div>
-<script src="js/jquery-1.11.2.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/jquery.main.js"></script>
+	<!-- Holder for mobile navigation -->
+	<div class="mobile-nav">
+		<ul>
+		</ul>
+		<a href="#" class="close-link"><i class="arrow_up"></i></a>
+	</div>
+	<!-- Scripts -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/typewriter.js"></script>
+	<script src="js/jquery.onepagenav.js"></script>
+	<script src="js/main.js"></script>
 </body>
+
 </html>
