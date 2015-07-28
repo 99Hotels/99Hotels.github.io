@@ -33,7 +33,7 @@ body a{
 ul.big-btns{
 	margin:0;
 	padding:0;
-} 
+}
 ul.big-btns li{
 	list-style:none;
 	display:inline-block;
@@ -106,7 +106,7 @@ ul.usefull-for li a.u-windows span:hover{
 }
 /*----- top-grids -----*/
 .top-grids{
-	background:#98D361;
+	background:#512DA8;
 	padding:3.2em 0 5em;
 }
 .top-grids-head h3{
