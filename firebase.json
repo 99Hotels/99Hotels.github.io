@@ -1,0 +1,9 @@
+{
+  "firebase": "99hotels",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
